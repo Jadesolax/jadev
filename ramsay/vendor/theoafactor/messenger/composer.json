@@ -1,0 +1,21 @@
+{
+    "name": "theoafactor/messenger",
+    "description": "Handles sending email messages to users",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Messenger\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olu",
+            "email": "theoafactor@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "devcoder-xyz/php-dotenv": "^1.1"
+    }
+}
